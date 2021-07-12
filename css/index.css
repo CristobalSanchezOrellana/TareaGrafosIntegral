@@ -1,0 +1,240 @@
+:root {
+    --dark: #1a1a1a;
+    --white: #ffffff;
+    --primary: rgba(46, 57, 157, 0.9);
+    --warning: rgba(46, 57, 157, 0.3);
+    --danger: #2092af;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .03rem;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+br {
+    font-size: 20px;
+    color: var(--white) !important;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 2500;
+}
+
+h2,
+h3,
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    font-size: 30px;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+#first h1 {
+    font-size: 40px;
+    color: var(--white);
+}
+
+#first h1:hover {
+    font-size: 41px;
+}
+
+#first p {
+    color: var(--white);
+}
+
+#first .container {
+    background-color: #2092af !important;
+}
+
+#first .divider {
+    border-bottom: 2px solid var(--white) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.border-danger {
+    border-color: var(--danger) !important;
+}
+
+.nav-link {
+    color: #2092af !important;
+    font-size: 1.0rem;
+}
+
+.nav-link:hover {
+    color: #2092af !important;
+    opacity: 55%;
+}
+
+
+/* Botones de todo, el header no lleva id por tanto calquier cambio de estos afecta a todos los demas botones*/
+
+.btn {
+    color: #2092af !important;
+    border: 1.5px solid #2092af;
+    border-radius: 20px;
+    min-width: 30px;
+}
+
+.btn:hover {
+    color: black !important;
+    border: 1.5px solid #2092af;
+    border-radius: 20px;
+    min-width: 30px;
+    background-color: #2092af !important;
+}
+
+.divider {
+    border-bottom: 2px solid black;
+}
+
+
+/* Seccion inicio */
+
+#inicio .divider {
+    border-bottom: 2px solid black;
+}
+
+#inicio .divider:hover {
+    border-bottom: 2px solid #2092af;
+}
+
+span:hover {
+    color: #2092af;
+}
+
+.text a {
+    color: black;
+    font-size: 20px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 12px 25px;
+    letter-spacing: 3px;
+    background-color: none;
+    /*border-radius: 20px;*/
+}
+
+.text a:hover {
+    color: #2092af;
+    text-decoration: none;
+    border: 3px solid #2092af;
+    transition: border 1.5s;
+    transition: color 1.2s;
+    transform: scale(1.05, 1.05);
+    background-color: black;
+    transition: background-color 1.5s;
+}
+
+.margina {
+    margin-bottom: 800px !important;
+}
+
+
+/* Seccion tecnologias */
+
+#tecnologias h1 {
+    color: black;
+}
+
+#tecnologias p {
+    color: black;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#tecnologias p:hover {
+    color: #2092af;
+}
+
+#tecnologias img {
+    width: 270px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+#tecnologias .divider {
+    border-bottom: 2px solid black;
+}
+
+#tecnologias .divider:hover {
+    border-bottom: 2px solid #2092af;
+}
+
+
+/* Seccion del footer*/
+
+.container-fluid {
+    background-color: #2092af !important;
+}
+
+#footer h4 {
+    font-weight: 300;
+    font-size: 19px;
+    color: #2092af;
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
+
+#footer i {
+    color: #2092af !important;
+    margin: 0;
+}
+
+#footer .divider {
+    margin: 0;
+    border-bottom: 2px solid #2092af;
+}
+
+.ion-icon {
+    color: #2092af !important;
+    border-color: #2092af !important;
+}
+
+.divider {
+    border-bottom: 2px solid black;
+}
+
+.divider1 {
+    border-bottom: 2px solid black;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+
+input:invalid {
+    border: 2px dashed #2092af;
+    color: black !important;
+}
+
+.centrar-btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
