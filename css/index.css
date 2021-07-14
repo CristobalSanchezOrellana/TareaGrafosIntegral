@@ -46,12 +46,12 @@ h5 {
 }
 
 #first h1 {
-    font-size: 40px;
+    font-size: 20px;
     color: var(--white);
 }
 
 #first h1:hover {
-    font-size: 41px;
+    font-size: 30px;
 }
 
 #first p {
@@ -59,7 +59,7 @@ h5 {
 }
 
 #first .container {
-    background-color: #2092af !important;
+    background-color: #000000 !important;
 }
 
 #first .divider {
